@@ -5,7 +5,8 @@
 #### 솔루션 탐색기에서 소스파일 -> 우클릭 -> 추가 -> 기존항목 cpp 추가 ####
 #### 솔루션 탐색기에서 헤더파일 -> 우클릭 -> 추가 -> 기존항목  h 추가 ####
 > 
-> 기본 cpp 파일에 헤더파일 추가 -> #include "Splash.h"
+> 기본 cpp 파일에 헤더파일 추가
+> #include "Splash.h"
 > 
 > BOOL Cmfc20191113SplashApp::InitInstance(){
 > 	함수안에
