@@ -7,6 +7,7 @@
 #include "afxdialogex.h"
 #include "mfc-2019-11-13-Splash.h"
 #include "MainFrm.h"
+#include "Splash.h"
 
 #include "mfc-2019-11-13-SplashDoc.h"
 #include "mfc-2019-11-13-SplashView.h"
@@ -70,6 +71,10 @@ BOOL Cmfc20191113SplashApp::InitInstance()
 
 	CWinAppEx::InitInstance();
 
+	CSplash splash1(TEXT("splash.bmp"), RGB(255, 255, 255));
+	splash1.ShowSplash();
+	Sleep(3000);
+	splash1.CloseSplash();
 
 	// OLE 라이브러리를 초기화합니다.
 	if (!AfxOleInit())

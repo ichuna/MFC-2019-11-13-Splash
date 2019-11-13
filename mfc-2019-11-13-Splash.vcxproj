@@ -190,6 +190,7 @@
     <ClInclude Include="mfc-2019-11-13-SplashDoc.h" />
     <ClInclude Include="mfc-2019-11-13-SplashView.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="Splash.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -198,6 +199,7 @@
     <ClCompile Include="mfc-2019-11-13-Splash.cpp" />
     <ClCompile Include="mfc-2019-11-13-SplashDoc.cpp" />
     <ClCompile Include="mfc-2019-11-13-SplashView.cpp" />
+    <ClCompile Include="Splash.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
