@@ -1,8 +1,3 @@
-
-// stdafx.cpp : 표준 포함 파일만 들어 있는 소스 파일입니다.
-// mfc-2019-11-13-Splash.pch는 미리 컴파일된 헤더가 됩니다.
-// stdafx.obj에는 미리 컴파일된 형식 정보가 포함됩니다.
-
-#include "stdafx.h"
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:a06cd339471e73d0b82f069d833e4c64bda5924589c98c149062a0af45d191b3
+size 208
